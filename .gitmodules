@@ -1,0 +1,3 @@
+[submodule "php-sru-search"]
+	path = php-sru-search
+	url = git://github.com/Zeitschriftendatenbank/php-sru-search.git
