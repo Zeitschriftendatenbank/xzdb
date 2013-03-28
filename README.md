@@ -35,46 +35,46 @@ Values for supplement, container, parallel, precessor and successor:
 ## Usage Examples
 index.php?num=823010209
 Response:
-[
-    {
-        "ppn": "1027830129",
-        "zdbid": "2691143-7",
-        "oclc": "823010209",
-        "precessor": [
-            {
-                "text": "Vorg.:",
-                "title": "\u0098Der\u009c MBA-Guide",
-                "zdbid": "2069257-2",
-                "ppn": "023148543"
-            }
-        ]
-    }
-]
+    [
+        {
+            "ppn": "1027830129",
+            "zdbid": "2691143-7",
+            "oclc": "823010209",
+            "precessor": [
+                {
+                    "text": "Vorg.:",
+                    "title": "\u0098Der\u009c MBA-Guide",
+                    "zdbid": "2069257-2",
+                    "ppn": "023148543"
+                }
+            ]
+        }
+    ]
 
 index.php?q=title=soil biology&maximum=2
-[
-    {
-        "ppn": "98815479X",
-        "zdbid": "2419232-6",
-        "issn_print": [
-            "1819-3498"
-        ],
-        "oclc": "644251209"
-    },
-    {
-        "ppn": "985542926",
-        "zdbid": "2385527-7",
-        "issn_print": [
-            "1613-3382"
-        ],
-        "oclc": "723788084",
-        "parallel": [
-            {
-                "text": "Druckausg.",
-                "title": "Soil biology",
-                "zdbid": "2151755-1",
-                "ppn": "026210169"
-            }
-        ]
-    }
-]
+    [
+        {
+            "ppn": "98815479X",
+            "zdbid": "2419232-6",
+            "issn_print": [
+                "1819-3498"
+            ],
+            "oclc": "644251209"
+        },
+        {
+            "ppn": "985542926",
+            "zdbid": "2385527-7",
+            "issn_print": [
+                "1613-3382"
+            ],
+            "oclc": "723788084",
+            "parallel": [
+                {
+                    "text": "Druckausg.",
+                    "title": "Soil biology",
+                    "zdbid": "2151755-1",
+                    "ppn": "026210169"
+                }
+            ]
+        }
+    ]
