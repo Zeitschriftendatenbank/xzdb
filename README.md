@@ -34,7 +34,10 @@ Values for supplement, container, parallel, precessor and successor:
 
 ## Usage Examples
 index.php?num=823010209
+
 Response:
+
+
     [
         {
             "ppn": "1027830129",
@@ -52,6 +55,7 @@ Response:
     ]
 
 index.php?q=title=soil biology&maximum=2
+
     [
         {
             "ppn": "98815479X",
