@@ -260,7 +260,7 @@
 			<xsl:when test="contains($sfa,'NL-LiSWE')">
 				<xsl:call-template name="keyvalue">
 					<xsl:with-param name="adding">1</xsl:with-param>
-					<xsl:with-param name="key">loc</xsl:with-param>
+					<xsl:with-param name="key">swets</xsl:with-param>
 					<xsl:with-param name="value">
 						<xsl:value-of select="substring-after($sfa,')')"/>
 					</xsl:with-param>
