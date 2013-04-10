@@ -24,8 +24,8 @@ $proc = new XSLTProcessor();
 $proc->importStylesheet($xslDoc);
 $jsonString = $proc->transformToXML($xmlDoc);
 if(isset($_REQUEST["debug"])){
-	$jsonO = json_decode($jsonString,true);
-	echo "<pre>".json_encode($jsonO, JSON_PRETTY_PRINT)."</pre>";
+	$pretty_json = json_format($jsonString);
+	echo "<pre>".$pretty_json."</pre>";
 } else {
 	echo $jsonString;	
 }
