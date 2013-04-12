@@ -5,6 +5,7 @@ if(isset($_REQUEST["debug"])){
 	header('Content-type: text/json charset=utf-8');
 }
 require_once("php-sru-search/SRUSearch.php");
+require_once("pretty_print.php");
 $search = new SRUSearch();
 $search->init("http://services.d-nb.de/sru/zdb","1.1","MARC21-xml");
 if(isset($_REQUEST["start"])) $search->setStartRecord($_REQUEST["start"]);
