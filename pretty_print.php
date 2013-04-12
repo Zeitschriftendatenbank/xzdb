@@ -7,12 +7,6 @@ function json_format($json)
     $indent_level = 0;
     $in_string = false;
 
-    $json_obj = json_decode($json);
-
-    if($json_obj === false)
-        return false;
-
-    $json = json_encode($json_obj);
     $len = strlen($json);
 
     for($c = 0; $c < $len; $c++)
