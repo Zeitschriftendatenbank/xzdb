@@ -1,5 +1,5 @@
 #xzdb
-ZDB service: Search within the Zeitschriftendatenbank (ZDB) and get a JSON represantation of a data snapshot.
+ZDB service: Search within the Zeitschriftendatenbank (ZDB) and get a JSON representation of a data snapshot.
 ## Parameters
   - start: the starting record (default 1)
   - maximum: the maximum number of returning records (default 10)
